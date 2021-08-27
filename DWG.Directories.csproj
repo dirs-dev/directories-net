@@ -5,6 +5,8 @@
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Kat Marchán</Authors>
     <Copyright>Kat Marchán</Copyright>
+    <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>Cross-platform directories support.</Description>
     <PackageProjectUrl>https://github.com/zkat/DWG.Directories</PackageProjectUrl>
     <RepositoryUrl>https://github.com/zkat/DWG.Directories</RepositoryUrl>
@@ -15,5 +17,9 @@
   <PropertyGroup>
     <TargetFrameworks>net6.0</TargetFrameworks>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 
 </Project>
