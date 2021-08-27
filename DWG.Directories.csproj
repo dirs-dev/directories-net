@@ -1,7 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <PackageId>DWG.Directories</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Kat Marchán</Authors>
+    <Copyright>Kat Marchán</Copyright>
+    <Description>Cross-platform directories support.</Description>
+    <PackageProjectUrl>https://github.com/zkat/DWG.Directories</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zkat/DWG.Directories</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>xdg directories</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0</TargetFrameworks>
   </PropertyGroup>
 
 </Project>
