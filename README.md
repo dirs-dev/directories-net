@@ -42,19 +42,19 @@ Library run by user Alice:
 using Directories.Net;
 
 ProjectDirectories myProjDirs = ProjectDirectories.From("com", "Foo Corp", "Bar App");
-myProjDirs.configDir;
+myProjDirs.ConfigDir;
 // Lin: /home/alice/.config/barapp
 // Mac: /Users/Alice/Library/Application Support/com.Foo-Corp.Bar-App
 // Win: C:\Users\Alice\AppData\Roaming\Foo Corp\Bar App\config
 
 BaseDirectories baseDirs = new BaseDirectories();
-baseDirs.executableDir;
+baseDirs.ExecutableDir;
 // Lin: /home/alice/.local/bin
 // Mac: null
 // Win: null
 
 UserDirectories userDirs = new UserDirectories();
-userDirs.audioDir;
+userDirs.AudioDir;
 // Lin: /home/alice/Music
 // Mac: /Users/Alice/Music
 // Win: C:\Users\Alice\Music
