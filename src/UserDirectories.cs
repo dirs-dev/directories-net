@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace DWG.Directories
+namespace Directories.Net
 {
     public class UserDirectories
     {

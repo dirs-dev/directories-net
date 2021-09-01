@@ -1,21 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageId>DWG.Directories</PackageId>
+    <PackageId>Directories.Net</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Kat Marchán</Authors>
     <Copyright>Kat Marchán</Copyright>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>Cross-platform directories support.</Description>
-    <PackageProjectUrl>https://github.com/zkat/DWG.Directories</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/zkat/DWG.Directories</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/dirs-dev/directories-net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dirs-dev/directories-net</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>xdg directories</PackageTags>
+    <PackageTags>xdg directories cross-platform</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>netstandard2.1;net5.0</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>

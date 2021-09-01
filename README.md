@@ -1,4 +1,4 @@
-# Directories
+# Directories.Net
 
 ## Introduction
 
@@ -30,7 +30,7 @@ Add the library as a dependency to your project:
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="DWG.Directories" Version="1.0.0" />
+  <PackageReference Include="Directories.Net" Version="1.0.0" />
 </ItemGroup>
 ```
 
@@ -39,7 +39,7 @@ Add the library as a dependency to your project:
 Library run by user Alice:
 
 ```csharp
-using DWG.Directories;
+using Directories.Net;
 
 ProjectDirectories myProjDirs = ProjectDirectories.From("com", "Foo Corp", "Bar App");
 myProjDirs.configDir;

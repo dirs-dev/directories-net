@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace DWG.Directories
+namespace Directories.Net
 {
     public class ProjectDirectories
     {
