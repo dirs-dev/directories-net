@@ -1,3 +1,5 @@
+![actively developed](https://img.shields.io/badge/stability-alpha-red.svg)
+
 # Directories.Net
 
 ## Introduction
